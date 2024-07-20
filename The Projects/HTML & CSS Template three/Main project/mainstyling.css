@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #423c74;
+
+}
+
+:root {
+    --main-timing: 0.3s;
+    --main-color: #3a6cf4;
+    --background-color: #000016;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 50px;
+    padding: 20px 200px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    width: 40%;
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #373766;
+    font-size: 1.4em;
+}
+
+.contentoftheheader a {
+    width: 50%;
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #373766;
+    font-size: 1em;
+    padding-left: 30px;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 200px 0 200px;
+    text-transform: capitalize;
+    color: white;
+    background-color: var(--background-color);
+}
+
+
+
+
+.brief h1 {
+    letter-spacing: 3px;
+    display: inline-block;
+    width: 70%;
+    color: var(--main-color);
+    height: 80px;
+}
+
+.brief h3 {
+    letter-spacing: 3px;
+    display: inline-block;
+    width: 70%;
+    height: 80px;
+    margin-top: 0;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 20px 0 20px 0;
+    margin-top: -150px;
+    font-size: 1.8em;
+}
+
+.view_my_prjoect {
+    background-color: #3a6cf4;
+    display: inline-block;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: center;
+    margin: 50px 0 30px 0;
+    font-weight: 50px;
+    font-size: 20px;
+    margin-right: 2500px;
+}
+
+.view_my_prjoect:hover {
+    transform: scale(1.5);
+    transition: all 0.5s 0.5s ease;
+}
+
+.icon1 a i {
+    color: white !important;
+    font-size: 30px;
+    padding-right: 30px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-top: -50px;
+}
+
+.cards {
+    background-color: white;
+    width: 100%;
+    padding: 20px 200px 0 200px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.headofcards {
+    color: var(--main-color);
+    width: 100%;
+    text-transform: capitalize;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0 10px 0;
+}
+
+/* For the frst card  */
+.firstcard {
+    background-color: rgba(63, 32, 32, 0.1);
+    border-radius: 20px;
+    width: calc(100%/3);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    text-align: center;
+    /* box-shadow: 10px 10px 2px 3px rgb(202, 202, 156); */
+    margin: 0 10px;
+    box-shadow: 5px 5px 15px rgba(1, 1, 1);
+}
+
+.firstcard:hover {
+    transform: scale(1.1);
+    transition: all 0.3s 0.3s ease-in-out;
+}
+
+.firstcard i {
+    font-size: 50px;
+    color: #3a6cf4;
+    width: 200px;
+}
+
+.cards .firstcard h2 {
+    color: var(--main-color);
+    text-transform: capitalize;
+
+}
+
+.cards .firstcard h6 {
+    color: black;
+}
+
+/* For the second card  */
+.secondcard {
+    background-color: rgba(63, 32, 32, 0.1);
+    border-radius: 20px;
+    width: calc(100%/3);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 10px;
+    box-shadow: 5px 5px 15px rgba(1, 1, 1);
+}
+
+.secondcard:hover {
+    transform: scale(1.1);
+    transition: all 0.3s 0.3s ease-in-out;
+}
+
+.secondcard i {
+    font-size: 50px;
+    color: #3a6cf4;
+    width: 200px;
+
+}
+
+.cards .secondcard h2 {
+    color: var(--main-color);
+    text-transform: capitalize;
+}
+
+.cards .secondcard h6 {
+    color: black;
+}
+
+/* For the third card  */
+.thirdcard {
+    background-color: rgba(63, 32, 32, 0.1);
+    border-radius: 20px;
+    width: calc(100%/3);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 10px 150px;
+    box-shadow: 5px 5px 15px rgba(1, 1, 1);
+}
+
+.thirdcard:hover {
+    transform: scale(1.1);
+    transition: all 0.3s 0.3s ease-in-out;
+}
+
+.thirdcard i {
+    font-size: 50px;
+    color: #3a6cf4;
+    width: 250px;
+}
+
+.cards .thirdcard h2 {
+    color: var(--main-color);
+    text-transform: capitalize;
+}
+
+.cards .thirdcard h6 {
+    color: black;
+}
+
+/* ------------------------------------------------------ */
+
+.projects {
+    background-color: var(--background-color);
+}
+
+.headofcards1 {
+    color: var(--main-color);
+    width: 100vw;
+    text-transform: capitalize;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0 10px 0;
+    margin-top: -100px;
+
+}
+
+/* For the new card  */
+.projects {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 200px;
+
+}
+
+.newcard {
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    width: calc(100%/4);
+    min-height: 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.newcard img {
+    width: calc(100%);
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newcard h4 {
+    color: var(--main-color);
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.newcard a {
+    color: black;
+    margin: 10px 0;
+}
+
+.newcard:hover {
+    transform: scale(1.1);
+    transition: all 0.3s 0.3s ease-in-out;
+}
+
+
+/* ----------------------------------------------- */
+
+.contact_me {
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.contacts {
+    background-color: white;
+    padding: 20px 200px 10px 200px;
+}
+
+.amira {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.telephone_container {
+    width: 300px;
+    min-height: 1.5em;
+    border: 2px solid rgb(150, 107, 107);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 5px 25px rgb(204, 179, 179);
+}
+
+.telephone_icon {
+    font-size: 50px;
+    color: var(--main-color);
+}
+
+/* -----  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: var(--background-color);
+    color: white;
+}
+
+footer div span {
+    color: var(--main-color);
+}
